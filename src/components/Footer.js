@@ -43,12 +43,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
+                <Link className="p-color" href="https://go.mememc.club/discord">
                   /support
                 </Link>
               </li>
               <li>
-                <Link className="p-color" href="#">
+                <Link className="p-color" href="https://go.mememc.club/discord">
                   /discord-server
                 </Link>
               </li>
@@ -61,7 +61,7 @@ const Footer = () => {
             <p className="p-color">
               Created with ❤️ by{" "}
               <Link
-                href="https://github.com/preetsuthar17"
+                href="https://go.mememc.club/discord"
                 className="h-color no-decoration"
               >
                 Preet Suthar
@@ -76,7 +76,7 @@ const Footer = () => {
             <Link
               target="_blank"
               className="p-color no-decoration"
-              href="https://github.com/preetsuthar17/discord-bot-website-template"
+              href="https://go.mememc.club/discord"
             >
               /source-code
             </Link>
