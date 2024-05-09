@@ -33,7 +33,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              General ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -62,17 +62,45 @@ export default function Commands() {
             <div className="box-content p-color">
               <ul>
                 <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/8ball</kbd> -{" "}
+                  <span className="p-color">Ask the magical 8 ball a question and get an answer</span>
                 </li>
                 <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/achievement</kbd> -{" "}
+                  <span className="p-color">Generate a Minecraft achievement message</span>
                 </li>
                 <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
+                  <kbd>/coinflip</kbd> -{" "}
+                  <span className="p-color">Flip a coin</span>
                 </li>
+                <li>
+                  <kbd>/connect4</kbd> -{" "}
+                  <span className="p-color">Connect 4 game</span>
+                </li>            
+                <li>
+                  <kbd>/gamestats</kbd> -{" "}
+                  <span className="p-color">View a user's game stats</span>
+                </li>            
+                <li>
+                  <kbd>/gametop</kbd> -{" "}
+                  <span className="p-color">View who has won the most games</span>
+                </li>                        
+                <li>
+                  <kbd>/math</kbd> -{" "}
+                  <span className="p-color">Evaluate a math equation</span>
+                </li>
+                <li>
+                  <kbd>/rockpapersccissors</kbd> -{" "}
+                  <span className="p-color">Rock paper scissors game</span>
+                </li>            
+                <li>
+                  <kbd>/rolldice</kbd> -{" "}
+                  <span className="p-color">Roll a dice</span>
+                </li>            
+                <li>
+                  <kbd>/tictactoe</kbd> -{" "}
+                  <span className="p-color">Tic-Tac-Toe game</span>
+                </li>            
               </ul>
             </div>
           </section>
