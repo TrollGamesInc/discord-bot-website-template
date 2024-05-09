@@ -22,13 +22,13 @@ const Showcase = () => {
         <span className="p-color">Bot is online!</span>
         <div className="showcase-btn">
           <button className="btn">
-            <Link className="h-color no-decoration" href="#">
+            <Link className="h-color no-decoration" href="https://go.mememc.club/astral">
               Invite now!
             </Link>
           </button>
 
           <button className="btn">
-            <Link className="h-color no-decoration" href="#">
+            <Link className="h-color no-decoration" href="https://go.mememc.club/discord">
               Join server!
             </Link>
           </button>
